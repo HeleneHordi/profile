@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  background: #F7F9FC;
+  color: #474e68;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+  color: #3c529f;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  color: #0c355d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: #fafafc; /* Fond blanc */
+  border: 1px solid #e0e0e0; /* Bordure légère */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  padding: 20px; /* Espace intérieur */
+  margin-bottom: 20px; /* Marge inférieure */
+}
